@@ -1,0 +1,47 @@
+[
+  {
+    "id": "loc-srv-dc",
+    "building": "Gedung Utama Politeknik Kampar",
+    "floor": "Lantai 2",
+    "room": "Server Room & Data Center UPT ICT",
+    "rack": "Rack 42U A1 / A2",
+    "notes": "Ruang ber-AC 18C, access biometric kontrol",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "loc-noc",
+    "building": "Gedung Utama Politeknik Kampar",
+    "floor": "Lantai 2",
+    "room": "Ruang Network Operation Center (NOC) ICT",
+    "rack": "Wallmount 12U",
+    "notes": "Ruang kendali pemantauan jaringan kampus",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "loc-lab-jarkom",
+    "building": "Gedung Workshop & Lab",
+    "floor": "Lantai 1",
+    "room": "Laboratorium Jaringan Komputer",
+    "rack": "Rack Edukasi 24U",
+    "notes": "Praktikum mahasiswa dan konfigurasi router/switch",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "loc-workshop",
+    "building": "Gedung Utama Politeknik Kampar",
+    "floor": "Lantai 1",
+    "room": "Bengkel & Ruang Teknisi ICT",
+    "rack": "Lemari Toolkit & Sparepart",
+    "notes": "Penyimpanan peralatan kerja & servis unit rusak",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "loc-gedung-direktorat",
+    "building": "Gedung Rektorat & Direktorat",
+    "floor": "Lantai 2",
+    "room": "IDF Distribution Switch Rektorat",
+    "rack": "Wallmount 9U",
+    "notes": "Distribusi koneksi pimpinan & administrasi",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  }
+]

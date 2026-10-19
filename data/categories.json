@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cat-srv",
+    "code": "SRV",
+    "name": "Server & Storage",
+    "description": "Server fisik rackmount/tower, NAS, SAN, dan storage array",
+    "code_prefix": "ICT-SRV",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "cat-net",
+    "code": "NET",
+    "name": "Perangkat Jaringan",
+    "description": "Router, switch core/distribution/access, AP, firewall, ONT",
+    "code_prefix": "ICT-NET",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "cat-com",
+    "code": "COM",
+    "name": "Komputer & Workstation",
+    "description": "PC Desktop, Laptop dinas, Mini PC, Workstation lab",
+    "code_prefix": "ICT-COM",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "cat-pwr",
+    "code": "PWR",
+    "name": "Power & UPS Data Center",
+    "description": "Uninterruptible Power Supply (UPS), PDU, stabilizer, genset panel",
+    "code_prefix": "ICT-PWR",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "cat-tol",
+    "code": "TOL",
+    "name": "Peralatan Kerja Teknisi",
+    "description": "Splicer fiber optik, OTDR, crimping tool, cable tester, multimeter",
+    "code_prefix": "ICT-TOL",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "cat-cns",
+    "code": "CNS",
+    "name": "Komponen & Suku Cadang",
+    "description": "Patch cord, SFP transceivers, kabel UTP Cat6, RAM, adaptor",
+    "code_prefix": "ICT-CNS",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  },
+  {
+    "id": "cat-sft",
+    "code": "SFT",
+    "name": "Lisensi & Software",
+    "description": "Lisensi OS Server, Antivirus, Firewall license, Virtualization",
+    "code_prefix": "ICT-SFT",
+    "created_at": "2026-10-19T22:45:31.576Z"
+  }
+]

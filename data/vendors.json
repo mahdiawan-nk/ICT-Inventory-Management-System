@@ -1,0 +1,32 @@
+[
+  {
+    "id": "vnd-01",
+    "name": "PT Telkom Indonesia (Witel Riau Daratan)",
+    "contact_person": "Account Manager Kampar",
+    "address": "Jl. Jenderal Sudirman No. 199, Pekanbaru",
+    "phone": "(0761) 32000",
+    "email": "corporate.riau@telkom.co.id",
+    "website": "https://telkom.co.id",
+    "created_at": "2026-10-19T22:45:31.577Z"
+  },
+  {
+    "id": "vnd-02",
+    "name": "CV Kampar Mandiri Solusindo",
+    "contact_person": "Hendra Saputra, S.T.",
+    "address": "Jl. Prof. M. Yamin No. 45, Bangkinang Kota",
+    "phone": "0812-7654-3210",
+    "email": "sales@kampar-solusindo.com",
+    "website": "https://kampar-solusindo.com",
+    "created_at": "2026-10-19T22:45:31.577Z"
+  },
+  {
+    "id": "vnd-03",
+    "name": "PT Master Sistem Infotama",
+    "contact_person": "Eko Wahyudi",
+    "address": "Wisma Sudirman Lt. 7, Jakarta Pusat",
+    "phone": "(021) 5711234",
+    "email": "info@mastersystem.co.id",
+    "website": "https://mastersystem.co.id",
+    "created_at": "2026-10-19T22:45:31.577Z"
+  }
+]

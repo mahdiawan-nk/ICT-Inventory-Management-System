@@ -1,0 +1,26 @@
+[
+  {
+    "id": "usr-admin-01",
+    "username": "admin",
+    "password_hash": "$2b$10$GUrS.5lhL8MHnGX/dm6ZnenFF9ss1ZbW1TR5eO4X3C/NEZL1XPks6",
+    "full_name": "Administrator UPT ICT",
+    "email": "ict@politeknikkampar.ac.id",
+    "role": "ADMIN",
+    "is_active": true,
+    "created_at": "2026-10-19T22:45:31.574Z",
+    "updated_at": "2026-10-19T22:45:31.574Z",
+    "last_login_at": "2026-10-19T22:55:55.035Z"
+  },
+  {
+    "id": "usr-operator-01",
+    "username": "operator",
+    "password_hash": "$2b$10$jkxBH/SXSeMnAcpbhsZw8emlZYWlvV1.1gfRDwNhJQBTuFpMS6cG2",
+    "full_name": "Teknisi Jaringan & Sistem",
+    "email": "teknisi.ict@politeknikkampar.ac.id",
+    "role": "OPERATOR",
+    "is_active": true,
+    "created_at": "2026-10-19T22:45:31.574Z",
+    "updated_at": "2026-10-19T22:45:31.574Z",
+    "last_login_at": "2026-10-19T22:55:28.384Z"
+  }
+]

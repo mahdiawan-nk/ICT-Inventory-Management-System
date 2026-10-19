@@ -1,0 +1,6 @@
+{
+  "name": "ICT Inventory Management System - Politeknik Kampar",
+  "description": "Sistem Inventaris dan Manajemen Aset Unit Pelaksana Teknis (UPT) ICT Politeknik Kampar dengan RBAC, kode akses audit, manajemen JSON persisten, dan integrasi Google Drive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

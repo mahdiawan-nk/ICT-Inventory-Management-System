@@ -1,0 +1,25 @@
+[
+  {
+    "app_name": "ICT Inventory Management System",
+    "institution_name": "Politeknik Kampar",
+    "unit_name": "Unit Pelaksana Teknis (UPT) ICT",
+    "timezone": "Asia/Jakarta",
+    "currency": "IDR",
+    "asset_code_prefix": "ICT",
+    "next_asset_sequence": 100,
+    "google_drive": {
+      "enabled": false,
+      "folder_id": "",
+      "parent_folder_name": "ICT Inventory - Politeknik Kampar",
+      "auth_type": "SERVICE_ACCOUNT",
+      "client_email": "",
+      "has_private_key": false
+    },
+    "backup": {
+      "auto_backup": true,
+      "interval_hours": 24,
+      "max_backup_files": 10,
+      "last_backup_at": "2026-10-19T22:45:31.577Z"
+    }
+  }
+]
