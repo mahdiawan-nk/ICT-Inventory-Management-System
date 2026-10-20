@@ -560,5 +560,50 @@
     "summary": "Sesi akses review (REVIEWER) dibuat untuk 'Uji Coba Audit BPK' dengan scope ALL",
     "changes_before": null,
     "changes_after": null
+  },
+  {
+    "id": "aud-1792465358839-9f778817",
+    "actor_id": "usr-admin-01",
+    "actor_name": "admin",
+    "role": "ADMIN",
+    "action": "LOGIN_SUCCESS",
+    "resource_type": "USER",
+    "resource_id": "usr-admin-01",
+    "timestamp": "2026-10-20T03:02:38.840Z",
+    "ip_address": "127.0.0.1",
+    "request_id": "cffb28ca-500e-4dc6-aaf4-97a2a80e7198",
+    "summary": "Pengguna 'admin' (ADMIN) berhasil masuk ke sistem",
+    "changes_before": null,
+    "changes_after": null
+  },
+  {
+    "id": "aud-1792465410738-bac06553",
+    "actor_id": "usr-admin-01",
+    "actor_name": "admin",
+    "role": "ADMIN",
+    "action": "LOGIN_SUCCESS",
+    "resource_type": "USER",
+    "resource_id": "usr-admin-01",
+    "timestamp": "2026-10-20T03:03:30.738Z",
+    "ip_address": "127.0.0.1",
+    "request_id": "6162acbc-2240-44c0-9b0d-61b0578d5ea1",
+    "summary": "Pengguna 'admin' (ADMIN) berhasil masuk ke sistem",
+    "changes_before": null,
+    "changes_after": null
+  },
+  {
+    "id": "aud-1792487376174-b95cd492",
+    "actor_id": "usr-admin-01",
+    "actor_name": "admin",
+    "role": "ADMIN",
+    "action": "LOAN_ASSET",
+    "resource_type": "LOAN",
+    "resource_id": "loan-mvggpb7g",
+    "timestamp": "2026-10-20T09:09:36.187Z",
+    "ip_address": "127.0.0.1",
+    "request_id": "f955e0aa-5631-48d5-ae30-1dc0b3321cdb",
+    "summary": "Peminjaman aset ICT-COM-2026-0001 (Workstation Monitoring NOC & SysAdmin) kepada Dani",
+    "changes_before": null,
+    "changes_after": null
   }
 ]

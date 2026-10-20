@@ -2,5 +2,9 @@
   {
     "id": "ICT-SRV-2026",
     "current": 47
+  },
+  {
+    "id": "seq-loans",
+    "current": 1
   }
 ]

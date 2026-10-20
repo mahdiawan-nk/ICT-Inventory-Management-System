@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Server,
   LogOut,
@@ -7,9 +7,9 @@ import {
   KeyRound,
   ExternalLink,
   Menu,
-} from 'lucide-react';
-import { User, ReviewSession } from '../types';
-import { RoleBadge } from './Badge';
+} from "lucide-react";
+import { User, ReviewSession } from "../types";
+import { RoleBadge } from "./Badge";
 
 interface NavbarProps {
   currentUser: User | null;
@@ -18,6 +18,8 @@ interface NavbarProps {
   onOpenReviewPortal: () => void;
   onToggleMobileSidebar: () => void;
 }
+
+import LogoPolkam from "../assets/images/polkam.png";
 
 export function Navbar({
   currentUser,
@@ -39,9 +41,13 @@ export function Navbar({
         </button>
 
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-700 to-indigo-900 text-white shadow-md shadow-blue-500/20">
-            <Server className="w-5 h-5" />
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl text-white shadow-md shadow-blue-500/20">
+            {/* <Server className="w-5 h-5" /> */}
+            <img src={LogoPolkam} alt="" />
           </div>
+          {/* <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-700 to-indigo-900 text-white shadow-md shadow-blue-500/20">
+            <Server className="w-5 h-5" />
+          </div> */}
           <div>
             <div className="flex items-center gap-2">
               <span className="font-bold tracking-tight text-slate-900 text-sm sm:text-base">
@@ -63,7 +69,13 @@ export function Navbar({
         <div className="hidden md:flex items-center gap-2 bg-emerald-50 text-emerald-800 px-3 py-1.5 rounded-lg border border-emerald-200 text-xs">
           <ShieldAlert className="w-4 h-4 text-emerald-600" />
           <span>
-            Mode Review Aktif: <strong>{reviewSession.label}</strong> ({reviewSession.scope_type === 'ALL' ? 'Semua Aset' : reviewSession.scope_type + ' - ' + (reviewSession.scope_value || '')})
+            Mode Review Aktif: <strong>{reviewSession.label}</strong> (
+            {reviewSession.scope_type === "ALL"
+              ? "Semua Aset"
+              : reviewSession.scope_type +
+                " - " +
+                (reviewSession.scope_value || "")}
+            )
           </span>
           <RoleBadge role={reviewSession.role} />
         </div>
@@ -78,7 +90,9 @@ export function Navbar({
                 {currentUser.full_name}
               </span>
               <div className="flex items-center justify-end gap-1.5">
-                <span className="text-[11px] text-slate-500 font-mono">@{currentUser.username}</span>
+                <span className="text-[11px] text-slate-500 font-mono">
+                  @{currentUser.username}
+                </span>
                 <RoleBadge role={currentUser.role} />
               </div>
             </div>
@@ -98,7 +112,9 @@ export function Navbar({
               <span className="text-xs font-semibold text-slate-800 block">
                 {reviewSession.label}
               </span>
-              <span className="text-[10px] text-emerald-600 font-medium">Akses Read-Only Terautentikasi</span>
+              <span className="text-[10px] text-emerald-600 font-medium">
+                Akses Read-Only Terautentikasi
+              </span>
             </div>
             <button
               onClick={onLogout}
